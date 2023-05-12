@@ -1,0 +1,85 @@
+{
+  
+    "name": "Ián Leonel",
+    "lastname": "Genta",
+    "position": "Fullstack Developer",
+    "location": "Mar del Plata, Buenos Aires(Argentina)",
+    "profileimage":"/assets/profile-picture.png",
+    "backimage":"/assets/background-picture.png",
+  "about-me": {
+    "content": ""
+  },
+  "education": [
+    {
+      "name": "Universidad Nacional de Mar del Plata",
+      "img": "/assets/UNMDP-logo.png",
+      "degree": "Ingenieria en Informática",
+      "url": "#",
+      "start": "mar 2021",
+      "end": "Actualidad"
+    },
+    {
+      "name": " Escuela Normal N°1",
+      "img": "/assets/company-ghost.svg",
+      "degree": "Colegio secundario",
+      "url": "#",
+      "start": "mar. 2020",
+      "end": "dic. 2020"
+    },
+    {
+      "name": " Escuela Nacional Adolfo Perez Esquivel ",
+      "img": "/assets/enape.png",
+      "degree": "Colegio secundario",
+      "url": "#",
+      "start": "mar. 2015",
+      "end": "dic. 2019"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio",
+      "img": "/assets/company-ghost.svg",
+      "url": "https://github.com/iangenta/frontend-portfolio"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Fullstack Developer",
+      "company": "Profesional independiente",
+      "start": "ago. 2022",
+      "end": "Actualidad",
+      "img": "/assets/company-ghost.svg",
+      "url": "#"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certificacion Profesional Analisis de Datos de Google",
+      "certifier": "Coursera-Google",
+      "date": "nov 2022",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/EDFB6WFLDN36",
+      "img": "/assets/coursera-google.png"
+    },
+    {
+      "name": "Especializacion Analisis de Datos de Google-Credly",
+      "certifier": "Coursera-Google",
+      "date": "nov 2022",
+      "url": "https://www.credly.com/badges/1b74350b-7af3-497b-baf2-2258f877fc5b/linked_in_profile",
+      "img": "/assets/coursera-google.png"
+    },
+    {
+      "name": "Argentina Programa 2022-Sé Programar",
+      "certifier": "Argentina Programa - INTI",
+      "date": "sep. 2022",
+      "url": "https://seprogramar.inti.gob.ar/inti/certificates/verify/e__v8_CVj86_hCd4",
+      "img": "/assets/arg-prg-sp.png"
+    },
+    {
+      "name": "Introducción al lenguaje de programación",
+      "certifier": "Comunidad IT",
+      "date": "abr 2022",
+      "url": "#",
+      "img": "/assets/comunidad-it.png"
+    }
+  ]
+}

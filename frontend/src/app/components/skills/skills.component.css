@@ -1,0 +1,74 @@
+.skills-div{
+    display: flex;
+    padding: 1.2rem 0;
+    padding-left: var(--spacing-three-x);
+    padding-right:var(--spacing-three-x) ;
+    border-bottom: 1px solid #f3f2ef;
+}
+.skills-div{
+    display: grid;
+    gap: .5em;
+}
+
+.hard-skills{
+    padding: 1em 0;
+}
+.skills-item{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills-item span{
+    font-weight: bold;
+}
+.skills-bar,.skills-bar::after{
+    position: relative;
+    width: 175px;
+    height: 8px;
+    background-color: #ccccec;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.skills-bar::after{
+content: '';
+position: absolute;
+left:-175px;
+background-color: #0e76a8;
+transition:color 0.1s,background-color 0.2s ease-in-out;
+animation: skills-bar-fill 2s ease-in-out forwards;
+}
+.skills-bar-10::after{
+    --skills-bar-length:10%;
+}
+.skills-bar-20::after{
+    --skills-bar-length:20%;
+}
+.skills-bar-30::after{
+    --skills-bar-length:30%;
+}
+.skills-bar-40::after{
+    --skills-bar-length:40%;
+}
+.skills-bar-50::after{
+    --skills-bar-length:50%;
+}
+.skills-bar-60::after{
+    --skills-bar-length:60%;
+}
+.skills-bar-70::after{
+    --skills-bar-length:70%;
+}
+.skills-bar-80::after{
+    --skills-bar-length:80%;
+}
+.skills-bar-90::after{
+    --skills-bar-length:90%;
+}
+.skills-bar-100::after{
+    --skills-bar-length:100%;
+}
+@keyframes skills-bar-fill{
+    to{
+        transform: translateX(var(--skills-bar-length));
+    }
+}

@@ -1,0 +1,80 @@
+<div class="card e-card" id="first-card">
+  <div id="profile-bg">
+    <img
+      [src]=""
+      alt=""
+      class="relative"
+      srcset=""
+    />
+  </div>
+  <div id="info" class="padding-horizontal padding-vertical">
+    <div id="info-img" class="display-flex">
+      <img [src]="" alt="" class="profile-image" />
+      <div class="btn-edit">
+        <a href="" class="btn-right"
+          ><i><span class="material-symbols-outlined"> edit </span></i></a
+        >
+      </div>
+    </div>
+    <!--User information profile card-->
+    <div id="info-data" class="relative margin-top">
+      <div>
+        <h1 class="name">{{persona.name}} {{persona.lastname}}</h1>
+        <div id="occupation" class="occupation"></div>
+        <div id="contact-info">
+          <span id="location" class="span-subtitle">
+          
+          </span>
+          <span
+            ><a href="" class="contact-info-span"
+              >Información de contacto</a
+            ></span
+          >
+        </div>
+      </div>
+      <!-- Companies and  Study information List-->
+      <ul id="extend-info" class="margin-top">
+        <li class="item-list-right">
+          <button
+            type="button"
+            class="btn-list-1 text-align-left item-details"
+          >
+            <img
+              [src]=""
+              alt=""
+              class="company-logo"
+              srcset=""
+            />
+            <span class="company-name"
+              ><div class="text-item-list">
+                Universidad Nacional de Mar del Plata
+              </div></span
+            >
+          </button>
+        </li>
+
+        <li class="item-list-right">
+          <button
+            type="button"
+            class="btn-list-2 text-align-left item-details"
+          >
+            <img
+              src="/assets/ITBA-logo.png"
+              alt=""
+              class="company-logo"
+              srcset=""
+            />
+            <span class="company-name"
+              ><div class="text-item-list">ITBA universidad</div></span
+            >
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div id="actions" class="margin-top">
+      <button class="btn btn-primary">Tengo interés en...</button>
+      <button class="btn btn-light">Añadir sección</button>
+      <button class="btn btn-light">Más</button>
+    </div>
+  </div>
+</div>

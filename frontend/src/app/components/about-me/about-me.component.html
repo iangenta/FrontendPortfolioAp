@@ -1,0 +1,39 @@
+<section class="card section-about margin-top relative e-card">
+  <div id="about">
+    <div class="head-title">
+      <div class="c-container">
+        <div class="card-head-container">
+          <div class="h2-title-container">
+            <h2>Sobre mi</h2>
+          </div>
+        </div>
+        <div class="item-edit">
+          <div class="btn-edit" id="btn-edit" onclick="editP()">
+            <a href="#" class="btn-right" no-referrer
+              ><i><span class="material-symbols-outlined"> edit </span></i></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <input
+      type="text"
+      id="edit-about"
+      oninput="textResult(this.value)"
+      placeholder="escribe aqui"
+      style="display: none"
+    />
+
+    <div class="about-p">
+      <div class="p-container padding-horizontal">
+        <p id="text-about">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          harum repellat quos optio atque pariatur earum culpa, quisquam
+          dignissimos nulla, maxime mollitia assumenda saepe, quae obcaecati
+          expedita consequatur alias corporis.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

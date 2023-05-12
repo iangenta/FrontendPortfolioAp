@@ -1,0 +1,31 @@
+.education-div{
+    display: flex;
+    padding: 1.2rem 0;
+    padding-left: var(--spacing-three-x);
+    padding-right:var(--spacing-three-x) ;
+    border-bottom: 1px solid #f3f2ef;
+}
+.title-education-container
+{
+    display:flex;
+    align-items: center;
+}
+.image-education-container img{
+    width: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    border: 4px solid transparent;
+    border-radius: 6px;
+}
+.image-ed-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem 0 0;
+    }
+
+    a {
+        color: #0d6efd;
+        text-decoration: underline;
+    }
